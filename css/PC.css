@@ -15,8 +15,9 @@ a{
     font-family: 'Rubik', sans-serif;
 }
 main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
 }
 nav{
     text-align: center;

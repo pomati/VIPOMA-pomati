@@ -28,11 +28,15 @@ section{
 }
 main{
     color: white;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding-bottom: 50px;
 }
 #googleplay{
     background-color: white;
     height: 200px;
-    justify-content: center;
 }
 @media only screen and ( max-width:320px){
     a{
