@@ -1,0 +1,94 @@
+
+header{
+    text-align: center;
+    background-color: rgb(16, 16, 15);
+    border-bottom: solid; color: rgb(255, 0, 0);
+    height: 140px;
+
+}
+body{
+    display: grid;
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);  
+}
+#Padre{
+    height: 840px;
+    width: 100%;
+    grid-template-rows: 280px 280px 280px;
+}
+#Hijo1{
+    height: 100%;
+    width: 100%;
+    border: solid;color: rgb(46, 46, 46);
+    background-image: url(https://www.hd-tecnologia.com/imagenes/articulos/2020/03/Complementa-tu-experiencia-gamer-con-los-productos-de-Trust-Gaming.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#Hijo2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    border: solid;color: rgb(255, 0, 0);
+    background-image: url(https://lh5.googleusercontent.com/proxy/yLm3_q4Yw83rrJPhIfSCTWLpTeNWM2ypp_hEUEJ_e6O4qnACq-hqFjz4AKUduaVQRQE7dDCPRIb-c1Dlsuk_Bnjj_GHLNbOuLevQ=s0-d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#Hijo3{
+    height: 100%;
+    width: 100%;
+    border: solid;color: rgb(255, 0, 0);
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/861e1148c49fd799f8821cca84916df0/razer-quick-charging-stand-ps5-500x500.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    color: rgb(255, 0, 0);
+    font-family: 'Rubik', sans-serif;
+    font-size: 70px;
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    border-bottom: solid; color: rgb(255, 0, 0);
+    text-align: center;
+}
+a{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+    font-family: 'Rubik', sans-serif;
+}
+#terms{
+    color: rgb(58, 57, 57);
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+@media only screen and ( max-width:320px){
+    a{
+        font-size: 10px;
+        text-align: center;
+        padding: 13px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #Hijo2{
+        background-image: url(https://p4.wallpaperbetter.com/wallpaper/505/242/469/gun-tank-screenshot-shooter-wallpaper-preview.jpg);
+    }
+    #terms{
+        font-size: 10px;
+    }
+}
