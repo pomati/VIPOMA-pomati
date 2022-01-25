@@ -13,6 +13,7 @@ a{
 h1{
     color: white;
     font-family: 'Rubik', sans-serif;
+    background-image: linear-gradient(to bottom, black, red);
 }
 body{
     background-color:rgb(16, 16, 15);
